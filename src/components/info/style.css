@@ -1,0 +1,35 @@
+.infoContainer {
+    position: absolute;
+    top: 25%;
+    z-index: 10000;
+    left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 1rem;
+    padding-right: 5rem;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.6);
+}
+
+.infoContainer div{
+    border-left: 1px solid #777;
+    padding: 0 1rem;
+    height: 6rem;
+}
+
+#ip{
+    border: none;
+}
+
+.infoContainer div span{
+    font-size: 0.8em;
+}
+
+.infoContainer div p{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+}
